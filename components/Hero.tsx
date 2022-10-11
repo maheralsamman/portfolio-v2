@@ -17,6 +17,10 @@ function Hero({}: Props) {
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
+      <img 
+      className="relative rounded-full h-32 w-32 mx-auto object-cover"
+      src="https://media.istockphoto.com/vectors/happy-handsome-man-showing-thumbs-up-concept-illustration-in-cartoon-vector-id980239992?k=20&m=980239992&s=612x612&w=0&h=xAzgjGwK4PPI3k6ZMnPT-I-_BYjeIGwwIf-OgTYMZoc=" 
+      alt="my picture" />
       <h1>
         <span>{text}</span>
         <Cursor cursorColor="#F7AB0A" />
