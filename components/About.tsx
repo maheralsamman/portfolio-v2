@@ -19,7 +19,7 @@ function About({}: Props) {
         transition={{ duration: 1.2 }}
         whileInView={{ x: 0, opacity: 1 }}
         viewport={{ once: true }}
-        className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover object-top md:rounded-lg md:w-64 md:h-95 xl:h-[600px] xl:w-[500px]"
+        className="-mb-20 mt-12 md:mb-0 flex-shrink-0 w-56 h-52 rounded-full object-cover object-top md:rounded-lg md:w-64 md:h-72 xl:h-[600px] xl:w-[500px]"
         src="https://maheralsamman.netlify.app/static/media/profilePic.35b50347.jpg"
         />
       <motion.div
