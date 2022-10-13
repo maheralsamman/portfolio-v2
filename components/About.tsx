@@ -15,10 +15,7 @@ function About({}: Props) {
         About
       </h3>
       <motion.img
-        initial={{ x: -200, opacity: 0 }}
-        transition={{ duration: 1.2 }}
-        whileInView={{ x: 0, opacity: 1 }}
-        viewport={{ once: true }}
+
         className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-contain md:rounded-lg md:w-64 md:h-95 xl:h-[600px] xl:w-[500px]"
         src="https://maheralsamman.netlify.app/static/media/profilePic.35b50347.jpg"
         />
